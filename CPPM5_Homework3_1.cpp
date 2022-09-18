@@ -1,9 +1,9 @@
-#include <iostream>
+п»ї#include <iostream>
 
 class Calculator
 {
 public:
-	// Названия методов не соответствуют соглашению по оформлению кода, но в задаче так. Считаем, что это ТЗ.
+	// РќР°Р·РІР°РЅРёСЏ РјРµС‚РѕРґРѕРІ РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚ СЃРѕРіР»Р°С€РµРЅРёСЋ РїРѕ РѕС„РѕСЂРјР»РµРЅРёСЋ РєРѕРґР°, РЅРѕ РІ Р·Р°РґР°С‡Рµ С‚Р°Рє. РЎС‡РёС‚Р°РµРј, С‡С‚Рѕ СЌС‚Рѕ РўР—.
 
 	double add()
 	{
@@ -109,9 +109,9 @@ public:
 		} while (true);
 	}
 private:
-	const std::string MSG_ENTER_NUM1 = "Введите num1: ";
-	const std::string MSG_ENTER_NUM2 = "Введите num2: ";
-	const std::string MSG_INVALID_INPUT = "Неверный ввод!";
+	const std::string MSG_ENTER_NUM1 = "Р’РІРµРґРёС‚Рµ num1: ";
+	const std::string MSG_ENTER_NUM2 = "Р’РІРµРґРёС‚Рµ num2: ";
+	const std::string MSG_INVALID_INPUT = "РќРµРІРµСЂРЅС‹Р№ РІРІРѕРґ!";
 };
 
 class CalcDemonstrator
